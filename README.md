@@ -1,1 +1,1 @@
-# AndreaModda
+© Copyright [Andrea Modda](https://t1nch0s.github.io/AndreaModda/) - 2022 | Desarrollado por [T1NCH0s](https://github.com/T1NCH0s).

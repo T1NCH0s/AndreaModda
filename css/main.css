@@ -40,21 +40,16 @@ nav {
   color: white;
 }
 
-.containertext {
-  width: 100%;
-  height: 50%;
-}
-
-.textbanner {
-  position: relative;
+.container-image {
   height: 100%;
+  width: 100%;
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.textbanner img {
+.container-image img {
   width: 100%;
   height: 100%;
   top: 0px;
@@ -65,7 +60,7 @@ nav {
   scale: 1;
 }
 
-.textbanner img:hover {
+.container-image img:hover {
   transform: scale(1.1);
   object-fit: cover;
   filter: brightness(0.7);
@@ -123,7 +118,6 @@ nav {
 /*footer*/
 footer {
   padding: 2rem 0;
-  margin-top: 100%;
 }
 
 .footer__icon {

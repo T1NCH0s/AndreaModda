@@ -21,6 +21,10 @@ svg {
   vertical-align: middle;
 }
 
+button {
+  border: none !important;
+}
+
 /*nav*/
 nav {
   background-color: #fff5e9;
@@ -118,7 +122,9 @@ nav {
 /*footer*/
 footer {
   padding: 2rem 0;
+  color: #8c7c65;
 }
+
 
 .footer__icon {
   color: #8c7c65;
@@ -152,8 +158,7 @@ footer {
   font-weight: 400;
 }
 
-.footer-bottom__copyright a {
-  color: gray;
+a {
   text-decoration: none;
 }
 

@@ -21,10 +21,6 @@ svg {
   vertical-align: middle;
 }
 
-button {
-  border: none !important;
-}
-
 /*nav*/
 nav {
   background-color: #fff5e9;
@@ -75,84 +71,8 @@ main {
   position: relative;
 }
 
-.main {
-  width: 100%;
-  height: 100%;
-  padding: 1rem;
-}
-
-.main__list {
-  padding-top: 0.5rem;
-  margin-left: 2rem;
-  list-style: none;
-  display: flex;
-  font-size: 0.7rem;
-}
-
-.main__list a {
-  text-decoration: none;
-  color: black;
-}
-
-.main__list-divider {
-  margin: 0 5px;
-  border-bottom: 1.3px solid #8c7c65;
-}
-
 form {
   padding: 1.3rem 2rem;
-}
-
-.form__container--imput-text {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 400;
-  margin-top: 1.2rem;
-  align-items: center;
-}
-.form__input-text {
-  width: 39rem;
-  height: 2rem;
-  padding: 0.5rem;
-  border-collapse: collapse;
-  border: none;
-  border-bottom: 1px solid #000;
-  color: gray;
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 0.8rem;
-}
-
-.form__container-text--area {
-  display: flex;
-  flex-direction: column;
-  margin: 1.5rem 0;
-}
-
-.form__container-label {
-  padding: 1rem;
-}
-
-.form__text-area {
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 0.8rem;
-  padding: 0.6rem;
-  color: gray;
-  width: 100%;
-  border: 1px solid #000;
-}
-
-.form__botton-submit {
-  border-radius: 10px;
-  border: 1px solid gray;
-  padding: 0.4rem 1rem;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  box-shadow: rgb(0 0 0 / 20%) 0px 0px 7px;
 }
 
 /*Text Area de la opcion OTRO*/

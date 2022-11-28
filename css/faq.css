@@ -70,59 +70,6 @@ nav {
 }
 
 /*main*/
-main {
-  position: relative;
-}
-
-.main {
-  width: 100%;
-  height: 100%;
-  padding: 1rem;
-}
-
-.main__list {
-  padding-top: 0.5rem;
-  margin-left: 2rem;
-  list-style: none;
-  display: flex;
-  font-size: 0.7rem;
-}
-
-.main__list a {
-  text-decoration: none;
-  color: black;
-}
-
-.main__list-divider {
-  margin: 0 5px;
-  border-bottom: 1.3px solid #8c7c65;
-}
-
-.main__article {
-  text-align: center;
-  margin: 2rem 0;
-  font-size: 1.7rem;
-  font-weight: 700;
-}
-.main__faq {
-  display: flex;
-  flex-direction: column;
-  margin: 6rem 0;
-}
-
-.main__faq h2 {
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
-.main__faq-list-unordered {
-  list-style: none;
-}
-
-.main__faq-list-item {
-  font-weight: 700;
-  padding: 0.4rem 0;
-}
 
 .main__whatsapp_pop {
   position: fixed;

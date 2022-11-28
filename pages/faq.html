@@ -62,51 +62,51 @@
       </nav>
     </header>
     <main>
-      <section class="main">
+      <section>
         <div class="container">
-          <div class="main__list">
-            <a href="../index.html" title="Volver al Inicio.">Inicio</a>
-            <span class="main__list-divider">></span>
-            <li>Preguntas Frecuentes</li>
+          <div class="d-flex m-4 mt-3 mb-3">
+            <a class="link-dark" href="../index.html" title="Volver al Inicio."><h6 style="font-size: 0.7rem">Inicio</h6></a>
+            <h6 class="m-1 mt-0 mb-0 border-bottom border-dark" style="font-size: 0.7rem">></h6>
+            <h6 style="font-size: 0.7rem">Preguntas Frecuentes</h6>
           </div>
         </div>
+      </section>
+
+      <section>
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <article class="main__article">
-                <h1>Preguntas Frecuentes</h1>
-              </article>
-              <div class="main__faq">
-                <h2>Como comprar</h2>
-                <ul class="main__faq-list-unordered">
-                  <li class="main__faq-list-item">Comprar productos exhibidos.</li>
-                  <ol class="main__faq-list-ordered">
-                    <li>
-                      Elige la prenda a elección desde la
-                      <a class="header__link" href="shop.html">Tienda</a>.
-                    </li>
-                    <li>Seleccioná el color, talle y cantidad.</li>
-                    <li>Añádelo al carrito.</li>
-                    <li>Buscar en el carrito tus prendas anteriormente seleccionadas.</li>
-                    <li>Finalizar la compra en el botón de comprar.</li>
-                    <li>Completar el método de pago a tu elección.</li>
-                    <li>Seleccione el método de envío a su preferencia</li>
-                    <li>Si considera que los datos establecidos están correctos, haz clic en <strong>"Finalizar pedido"</strong> y espere a la llegada de su producto.</li>
-                  </ol>
-                  <li class="main__faq-list-item">Métodos de pago</li>
-                  <ul>
-                    <li>Efectivo</li>
-                    <li>Transferencias bancarias</li>
-                    <li>Mercado Pago.</li>
-                  </ul>
-                  <li class="main__faq-list-item">Envíos</li>
-                  <ul>
-                    <li>Envíos a domicilio Córdoba Capital Zona norte. (Costo adicional)</li>
-                    <li>Al interior (Argentina). A cargo del comprador</li>
-                  </ul>
-                </ul>
-              </div>
-            </div>
+          <article class="text-center my-5">
+            <h1>Preguntas Frecuentes</h1>
+          </article>
+          <div class="d-flex flex-column py-5">
+            <!--Se que para dar espacios se usa margenes y no padding, pero en este caso se suman y es necesario usar paddings. PD: Lo vi en un ejemplo que brindo el profesor.-->
+            <h2 class="mb-5 text-center">Como comprar</h2>
+            <ul class="p-0" style="list-style:none;">
+              <li><strong>Comprar productos exhibidos.</strong></li>
+              <ol>
+                <li>
+                  Elige la prenda a elección desde la
+                  <a class="link-dark" href="shop.html">Tienda</a>.
+                </li>
+                <li>Seleccioná el color, talle y cantidad.</li>
+                <li>Añádelo al carrito.</li>
+                <li>Buscar en el carrito tus prendas anteriormente seleccionadas.</li>
+                <li>Finalizar la compra en el botón de comprar.</li>
+                <li>Completar el método de pago a tu elección.</li>
+                <li>Seleccione el método de envío a su preferencia</li>
+                <li>Si considera que los datos establecidos están correctos, haz clic en <strong>"Finalizar pedido"</strong> y espere a la llegada de su producto.</li>
+              </ol>
+              <li><strong>Métodos de pago</strong></li>
+              <ul>
+                <li>Efectivo</li>
+                <li>Transferencias bancarias</li>
+                <li>Mercado Pago.</li>
+              </ul>
+              <li><strong>Envíos</strong></li>
+              <ul>
+                <li>Envíos a domicilio Córdoba Capital Zona norte. (Costo adicional)</li>
+                <li>Al interior (Argentina). A cargo del comprador</li>
+              </ul>
+            </ul>
           </div>
         </div>
       </section>

@@ -11,10 +11,13 @@
     "url": "git+https://github.com/T1NCH0s/AndreaModda.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Martin Peralta",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/T1NCH0s/AndreaModda/issues"
   },
-  "homepage": "https://github.com/T1NCH0s/AndreaModda#readme"
+  "homepage": "https://github.com/T1NCH0s/AndreaModda#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }

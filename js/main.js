@@ -1,3 +1,4 @@
+//Funcion para hace swift al text area de la page Contacto.
 $("#motive").change(function () {
   var selected = $("option:selected", this).attr("class");
   if (selected == "otro") {
@@ -7,7 +8,7 @@ $("#motive").change(function () {
   }
 });
 
-/*Function test para bajar con el scroll y mostrar el scroll to top*/
+// Funcion Main para hacer scrolltop.
 let mybutton = document.getElementById("main__scrolltop");
 window.onscroll = function () {
   scrollFunction();

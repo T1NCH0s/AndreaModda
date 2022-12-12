@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "© Copyright [Andrea Modda](https://t1nch0s.github.io/AndreaModda/) - 2022 | Desarrollado por [T1NCH0s](https://github.com/T1NCH0s).",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T1NCH0s/AndreaModda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T1NCH0s/AndreaModda/issues"
+  },
+  "homepage": "https://github.com/T1NCH0s/AndreaModda#readme"
+}

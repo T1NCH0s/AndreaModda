@@ -69,13 +69,6 @@ nav {
   object-fit: cover;
   filter: brightness(0.7);
 }
-
-/*main*/
-
-main {
-  height: 100vh;
-}
-
 .main__whatsapp_pop {
   position: fixed;
   bottom: 9%;
@@ -83,18 +76,39 @@ main {
   max-width: 2.7rem;
 }
 
-.main__scrolltop {
+.main__whatsapp_pop {
   position: fixed;
-  background-color: black;
-  bottom: 3%;
-  right: 2rem;
-  border-radius: 5px;
-  box-shadow: rgb(0 0 0 / 90%) 0px 0px 10px;
+  bottom: 9%;
+  right: 1.6rem;
+  max-width: 2.7rem;
+  animation-name: tada;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
-.main__scrolltop i {
+.main__scrolltop {
+  display: none;
+  position: fixed;
+  background-color: black;
+  border: none;
+  outline: none;
+  bottom: 1%;
+  right: 2rem;
+  z-index: 99;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 90%) 0px 0px 10px;
   color: white;
   padding: 0.5rem;
+
+
+  animation: ease-in 1s infinite both;
+  animation-name: slideInUp;
+  animation-duration: 0.65s;
+  animation-fill-mode: both;
+}
+
+.main__scrolltop.active {
+  display: block;
 }
 
 /*Scroll Bar*/
@@ -122,6 +136,7 @@ footer {
   padding: 2rem 0;
   color: #8c7c65;
 }
+
 
 .footer__icon {
   color: #8c7c65;
@@ -162,4 +177,45 @@ a {
 .footer-bottom__copyright a:hover {
   color: #8c7c65;
   text-decoration: underline;
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-35%);
+    transform: translateY(-35%);
+    visibility: visible;
+  }
 }

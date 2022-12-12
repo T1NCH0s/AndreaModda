@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../css/faq.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="../imgs/favicons/favicon-index.png" type="image/x-icon" />
@@ -14,9 +14,7 @@
   </head>
 
   <body>
-    <!--header-->
     <header>
-      <!--Nav-->
       <nav class="navbar navbar-expand-lg fixed-top top-0 start-0 w-100">
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +76,6 @@
             <h1>Preguntas Frecuentes</h1>
           </article>
           <div class="d-flex flex-column py-5">
-            <!--Se que para dar espacios se usa margenes y no padding, pero en este caso se suman y es necesario usar paddings. PD: Lo vi en un ejemplo que brindo el profesor.-->
             <h2 class="mb-5 text-center">Como comprar</h2>
             <ul class="p-0" style="list-style:none;">
               <li><strong>Comprar productos exhibidos.</strong></li>
@@ -112,7 +109,7 @@
       </section>
 
       <a href="https://wa.me/5493541634952" class="main__whatsapp_pop"><img src="../imgs/whatsapp-icon.svg" alt="Mensaje Directo Whatsapp" /></a>
-      <a href="#" class="main__scrolltop"><i class="fa fa-angle-up"></i></a>
+      <button onclick="topFunction()" class="main__scrolltop" id="main__scrolltop"><i class="fa fa-angle-up"></i></button>
     </main>
     <footer class="bg-light">
       <div class="container">
@@ -142,7 +139,8 @@
         </div>
       </div>
     </footer>
-    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

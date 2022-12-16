@@ -1,0 +1,41 @@
+//footer
+footer {
+  padding: 2rem 0;
+  color: $footer-color;
+}
+
+.footer__icon {
+  color: $footer-color;
+
+  &:hover {
+    color: $primary-text-color;
+    transition: 0.5s ease;
+  }
+}
+
+.footer-top__Items-container {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  justify-content: center;
+
+  &:hover {
+    background-color: $footer-color;
+    transition: 0.5s ease;
+  }
+}
+
+.footer-bottom {
+  font-size: 0.7rem;
+  margin-top: 3rem;
+}
+
+.footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+  & a:hover {
+    color: $footer-color;
+    text-decoration: underline;
+  }
+}

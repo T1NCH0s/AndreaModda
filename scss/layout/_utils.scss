@@ -1,0 +1,36 @@
+//Main general
+.main__whatsapp_pop {
+  position: fixed;
+  bottom: 9%;
+  right: 1.6rem;
+  max-width: 2.7rem;
+}
+
+.main__whatsapp_pop {
+  position: fixed;
+  bottom: 9%;
+  right: 1.6rem;
+  max-width: 2.7rem;
+
+  @include animate(slideInDown, 1s, ease-in, infinite);
+}
+
+.main__scrolltop {
+  display: none;
+  position: fixed;
+  background-color: black;
+  border: none;
+  outline: none;
+  bottom: 1%;
+  right: 2rem;
+  z-index: 99;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 90%) 0px 0px 10px;
+  color: $primary-text-color;
+  padding: 0.5rem;
+  @include animate(slideInUp, 0.65s, ease-in, infinite);
+
+  &.active {
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+body {
+  font-family: $fontFamily, sans-serif;
+  padding-top: 14vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+button {
+  border: none !important;
+}
+
+a {
+  text-decoration: none;
+}

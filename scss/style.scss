@@ -1,10 +1,14 @@
-@import "base/resets";
 @import "utilities/variables";
-@import "components/scrollbar";
 @import "utilities/mixins";
+
+@import "base/resets";
 @import "base/base";
+
 @import "layout/navbar";
-@import "views/home";
 @import "layout/footer";
 @import "layout/utils";
+
+@import "pages/home";
+
+@import "components/scrollbar";
 @import "components/keyframes";
